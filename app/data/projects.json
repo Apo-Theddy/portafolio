@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "title": "Tria",
+    "description": "Asistente virtual orientado a la ayuda estudiantil de la universidad cesar vallejo. Chatbot inteligente con dashboard administrativo para análisis de datos y gestión.",
+    "large_description": "Asistente virtual orientado a la ayuda estudiantil de la universidad cesar vallejo. Chatbot inteligente con dashboard administrativo para análisis de datos y gestión.",
+    "thumbnail": "tria-thumbnail.png",
+    "images": ["tria1.png", "tria2.png", "tria3.png", "tria4.png"],
+    "tags": ["NestJS", "NextJS", "TypeScript", "Python", "Tailwind"],
+    "features": [
+      "Chatbot con procesamiento de lenguaje natural",
+      "Dashboard administrativo con análisis",
+      "Sistema de seguimiento de consultas",
+      "Integración con sistemas universitarios"
+    ],
+    "isPrivate": true
+  },
+  {
+    "id": 2,
+    "title": "Yanapaway",
+    "description": "Plataforma de gestión de dispositivos de localización y seguridad ciudadana con seguimiento en tiempo real.",
+    "large_description": "",
+    "thumbnail": "yanapaway-thumbnail.png",
+    "images": [
+      "yanapaway1.jpg",
+      "yanapaway2.jpg",
+      "yanapaway3.jpg",
+      "yanapaway4.jpg"
+    ],
+    "tags": ["NestJS", "Flutter", "Dart", "MySQL"],
+    "features": [
+      "Seguimiento GPS en tiempo real",
+      "Sistema de alertas y notificaciones",
+      "Historial de ubicaciones"
+    ],
+    "isPrivate": true
+  },
+  {
+    "id": 3,
+    "title": "Digital Card",
+    "description": "Plataforma y app móvil que provee una cartilla virtual para agilizar el trabajo entre mozo, cocinero y cliente.",
+    "large_description": "",
+    "thumbnail": "digitalcard-thumbnail.png",
+    "images": [
+      "digitalcard1.png",
+      "digitalcard2.png",
+      "digitalcard3.png",
+      "digitalcard4.png",
+      "digitalcard5.png"
+    ],
+    "tags": ["NestJS", "Flutter", "SQLServer", "Tailwind"],
+    "features": [
+      "Cartilla digital interactiva",
+      "Sistema de pedidos en tiempo real",
+      "Panel de control para cocina",
+      "Gestión de mesas y órdenes"
+    ],
+    "isPrivate": false
+  },
+  {
+    "id": 4,
+    "title": "Aiotronic Landing",
+    "large_description": "Landing page corporativa moderna y responsive que muestra los servicios y productos de la empresa. Diseño responsive, optimización SEO, animaciones interactivas, integración de formularios.",
+    "thumbnail": "aiotronic-thumbnail.svg",
+    "images": [
+      "aiotronic1.png",
+      "aiotronic2.png",
+      "aiotronic3.png",
+      "aiotronic4.png"
+    ],
+    "description": "Landing page corporativa moderna y responsive que muestra los servicios y productos de la empresa.",
+    "tags": ["HTML", "CSS", "JavaScript", "Tailwind"],
+    "features": [
+      "Diseño responsive",
+      "Optimización SEO",
+      "Animaciones interactivas",
+      "Integración de formularios"
+    ],
+    "isPrivate": false
+  },
+  {
+    "id": 5,
+    "title": "HP Consultores Landing",
+    "description": "Landing page profesional para servicios de consultoría empresarial con diseño moderno y optimizado.",
+    "large_description": "",
+    "thumbnail": "hpconsulttores-thumbnail.jpg",
+    "images": [
+      "consultores1.png",
+      "consultores2.png",
+      "consultores3.png",
+      "consultores4.png"
+    ],
+    "tags": ["HTML", "CSS", "JavaScript", "Tailwind"],
+    "features": [
+      "Diseño responsive",
+      "Optimización de rendimiento",
+      "Formularios de contacto",
+      "Galería de servicios"
+    ],
+    "isPrivate": false
+  },
+  {
+    "id": 6,
+    "title": "Ediciones Jornada ",
+    "description": "Plataforma de gestion de periodicos digitales, con sistema de edicion y publicacion de noticias.",
+    "large_description": "",
+    "thumbnail": "jornada-thumbnail.jpg",
+    "images": ["jornada1.png", "jornada2.png"],
+    "tags": ["HTML", "CSS", "JavaScript", "MongoDB", "NodeJS"],
+    "features": [
+      "Sistema de edicion de noticias",
+      "Publicacion de noticias",
+      "Gestion de usuarios",
+      "Sistema de autenticacion"
+    ],
+    "isPrivate": true
+  }
+]

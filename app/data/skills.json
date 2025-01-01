@@ -1,0 +1,87 @@
+{
+  "frontend_core": [
+    { "name": "HTML5", "color": "group-hover:text-[#E34F26]", "img": "html" },
+    { "name": "CSS3", "color": "group-hover:text-[#1572B6]", "img": "css" },
+    {
+      "name": "JavaScript",
+      "color": "group-hover:text-[#F7DF1E]",
+      "img": "js"
+    },
+    {
+      "name": "TypeScript",
+      "color": "group-hover:text-[#3178C6]",
+      "img": "ts"
+    },
+    { "name": "React", "color": "group-hover:text-[#61DAFB]", "img": "react" },
+    { "name": "Next.js", "color": "group-hover:text-[#000000]", "img": "next" },
+    {
+      "name": "Tailwind",
+      "color": "group-hover:text-[#38B2AC]",
+      "img": "tailwind"
+    }
+  ],
+  "mobile_core": [
+    {
+      "name": "Flutter",
+      "color": "group-hover:text-[#02569B]",
+      "img": "flutter"
+    },
+    { "name": "Dart", "color": "group-hover:text-[#0175C2]", "img": "dart" }
+  ],
+  "backend_tech": [
+    {
+      "name": "Node.js",
+      "color": "group-hover:text-[#339933]",
+      "img": "nodejs"
+    },
+    {
+      "name": "Express",
+      "color": "group-hover:text-[#000000]",
+      "img": "express"
+    },
+    {
+      "name": "NestJS",
+      "color": "group-hover:text-[#E0234E]",
+      "img": "nestjs"
+    },
+    { "name": "Python", "color": "group-hover:text-[#3776AB]", "img": "python" }
+  ],
+  "database_tech": [
+    {
+      "name": "MongoDB",
+      "color": "group-hover:text-[#47A248]",
+      "img": "mongodb"
+    },
+    { "name": "MySQL", "color": "group-hover:text-[#4479A1]", "img": "mysql" },
+    { "name": "Redis", "color": "group-hover:text-[#DC382D]", "img": "redis" }
+  ],
+  "tools_tech": [
+    { "name": "Git", "color": "group-hover:text-[#F05032]", "img": "git" },
+    {
+      "name": "Docker",
+      "color": "group-hover:text-[#2496ED]",
+      "img": "docker"
+    },
+    {
+      "name": "Firebase",
+      "color": "group-hover:text-[#FFCA28]",
+      "img": "firebase"
+    },
+    { "name": "AWS", "color": "group-hover:text-[#FF9900]", "img": "aws" },
+    {
+      "name": "GitHub",
+      "color": "group-hover:text-[#181717]",
+      "img": "github"
+    },
+    {
+      "name": "VS Code",
+      "color": "group-hover:text-[#007ACC]",
+      "img": "vscode"
+    },
+    {
+      "name": "Postman",
+      "color": "group-hover:text-[#FF6C37]",
+      "img": "postman"
+    }
+  ]
+}
