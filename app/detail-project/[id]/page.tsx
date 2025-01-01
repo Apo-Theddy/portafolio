@@ -8,28 +8,32 @@ import Logo from '../../../public/images/logo.png';
 import projects from '../../data/projects.json';
 
 
-export async function generateStaticParams() {
-  return projects.map((project) => ({
-    id: project.id.toString(),
-  }));
-}
+
 
 const figtree = Figtree({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
-const ProjectDetail = () => {
-  const params = useParams();
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    id: project.id.toString(),
+  }));
+}
 
-  if (!params.id || !parseInt(params.id.toString())) {
-    redirect("/");
+export default function ProjectDetail({ params }: { params: { id: string } }) {
+  const projectId = parseInt(params.id, 10);
+
+  if (!projectId) {
+    redirect('/');
+    return null;
   }
 
-  const project = projects.find((project) => project.id === parseInt(params.id!.toString()));
+  const project = projects.find((project) => project.id === projectId);
 
   if (!project) {
-    redirect("/");
+    redirect('/');
+    return null;
   }
 
   return <>
@@ -154,5 +158,3 @@ const ProjectDetail = () => {
     </div >
   </>
 };
-
-export default ProjectDetail;
