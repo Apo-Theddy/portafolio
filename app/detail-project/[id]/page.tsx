@@ -7,6 +7,13 @@ import { redirect, useParams } from 'next/navigation';
 import Logo from '../../../public/images/logo.png';
 import projects from '../../data/projects.json';
 
+
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    id: project.id.toString(),
+  }));
+}
+
 const figtree = Figtree({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
