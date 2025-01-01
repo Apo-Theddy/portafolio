@@ -4,8 +4,8 @@
     "title": "Tria",
     "description": "Asistente virtual orientado a la ayuda estudiantil de la universidad cesar vallejo. Chatbot inteligente con dashboard administrativo para análisis de datos y gestión.",
     "large_description": "Asistente virtual orientado a la ayuda estudiantil de la universidad cesar vallejo. Chatbot inteligente con dashboard administrativo para análisis de datos y gestión.",
-    "thumbnail": "tria-thumbnail.png",
-    "images": ["tria1.png", "tria2.png", "tria3.png", "tria4.png"],
+    "thumbnail": "tria-thumbnail.PNG",
+    "images": ["tria1.PNG", "tria2.PNG", "tria3.PNG", "tria4.PNG"],
     "tags": ["NestJS", "NextJS", "TypeScript", "Python", "Tailwind"],
     "features": [
       "Chatbot con procesamiento de lenguaje natural",
@@ -20,7 +20,7 @@
     "title": "Yanapaway",
     "description": "Plataforma de gestión de dispositivos de localización y seguridad ciudadana con seguimiento en tiempo real.",
     "large_description": "",
-    "thumbnail": "yanapaway-thumbnail.png",
+    "thumbnail": "yanapaway-thumbnail.PNG",
     "images": [
       "yanapaway1.jpg",
       "yanapaway2.jpg",
@@ -40,13 +40,13 @@
     "title": "Digital Card",
     "description": "Plataforma y app móvil que provee una cartilla virtual para agilizar el trabajo entre mozo, cocinero y cliente.",
     "large_description": "",
-    "thumbnail": "digitalcard-thumbnail.png",
+    "thumbnail": "digitalcard-thumbnail.PNG",
     "images": [
-      "digitalcard1.png",
-      "digitalcard2.png",
-      "digitalcard3.png",
-      "digitalcard4.png",
-      "digitalcard5.png"
+      "digitalcard1.PNG",
+      "digitalcard2.PNG",
+      "digitalcard3.PNG",
+      "digitalcard4.PNG",
+      "digitalcard5.PNG"
     ],
     "tags": ["NestJS", "Flutter", "SQLServer", "Tailwind"],
     "features": [
@@ -63,10 +63,10 @@
     "large_description": "Landing page corporativa moderna y responsive que muestra los servicios y productos de la empresa. Diseño responsive, optimización SEO, animaciones interactivas, integración de formularios.",
     "thumbnail": "aiotronic-thumbnail.svg",
     "images": [
-      "aiotronic1.png",
-      "aiotronic2.png",
-      "aiotronic3.png",
-      "aiotronic4.png"
+      "aiotronic1.PNG",
+      "aiotronic2.PNG",
+      "aiotronic3.PNG",
+      "aiotronic4.PNG"
     ],
     "description": "Landing page corporativa moderna y responsive que muestra los servicios y productos de la empresa.",
     "tags": ["HTML", "CSS", "JavaScript", "Tailwind"],
@@ -85,10 +85,10 @@
     "large_description": "",
     "thumbnail": "hpconsulttores-thumbnail.jpg",
     "images": [
-      "consultores1.png",
-      "consultores2.png",
-      "consultores3.png",
-      "consultores4.png"
+      "consultores1.PNG",
+      "consultores2.PNG",
+      "consultores3.PNG",
+      "consultores4.PNG"
     ],
     "tags": ["HTML", "CSS", "JavaScript", "Tailwind"],
     "features": [
@@ -105,7 +105,7 @@
     "description": "Plataforma de gestion de periodicos digitales, con sistema de edicion y publicacion de noticias.",
     "large_description": "",
     "thumbnail": "jornada-thumbnail.jpg",
-    "images": ["jornada1.png", "jornada2.png"],
+    "images": ["jornada1.PNG", "jornada2.PNG"],
     "tags": ["HTML", "CSS", "JavaScript", "MongoDB", "NodeJS"],
     "features": [
       "Sistema de edicion de noticias",
