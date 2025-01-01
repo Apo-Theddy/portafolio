@@ -42,8 +42,6 @@ const ProjectCard = ({ id, title, description, tags, features, isPrivate, thumbn
 
   function handleClickProject() {
     router.push(`/detail-project/${id}`);
-    console.log("Click en el proyecto");
-    console.log(id);
   }
 
   return (
