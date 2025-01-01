@@ -106,12 +106,11 @@ const SkillsSection = () => {
           ))}
         </div>
 
-        {/* Experience Level Indicator */}
         <div className="max-w-3xl mx-auto bg-white rounded-xl p-6 border border-gray-200 shadow-lg">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-center sm:text-left">
-              <h4 className="text-xl font-bold text-gray-800">Experience Level</h4>
-              <p className="text-gray-600">Years of professional development experience</p>
+              <h4 className="text-xl font-bold text-gray-800">Nivel de experiencia</h4>
+              <p className="text-gray-600">1 año y medio de experiencia profesional</p>
             </div>
             <div className="flex gap-2">
               {[1, 2, 3, 4, 5].map((level) => (

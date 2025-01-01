@@ -115,7 +115,7 @@ export default function Home() {
               </div>
               <div className="h-24 flex justify-center items-center">
                 <IoIosArrowDown
-                  className="w-12 h-12 text-white cursor-pointer animate-bounce hover:text-blue-500 transition-colors duration-300"
+                  className="max-sm:mb-40 w-12 h-12 text-white cursor-pointer animate-bounce hover:text-blue-500 transition-colors duration-300"
                   onClick={() => scrollToSection('about')}
                 />
               </div>

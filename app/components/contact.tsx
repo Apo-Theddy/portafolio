@@ -139,6 +139,8 @@ const ContactSection = () => {
 
           <form
             onSubmit={handleSubmit}
+            action="https://formsubmit.co/apotheddy@hotmail.com"
+            method='POST'
             className="lg:col-span-3 bg-white backdrop-blur-lg rounded-3xl p-8 shadow-xl border border-gray-100 relative overflow-hidden order-1 lg:order-2"
           >
             <div className="relative z-10 space-y-8">
@@ -201,6 +203,7 @@ const ContactSection = () => {
                 </label>
               </div>
 
+              <input type="hidden" name="_captcha" value="false" />
               <button
                 type="submit"
                 disabled={isSubmitted}

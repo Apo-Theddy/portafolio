@@ -31,11 +31,11 @@ const Navigation: React.FC<NavProps> = ({
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems: NavItem[] = [
-    { label: 'About Me', action: handleAboutMeSection },
-    { label: 'Projects', action: handleProjectsSection },
-    { label: 'Skills', action: handleSkillsSection },
-    { label: 'Services', action: handleServicesSection },
-    { label: 'Contact', action: handleContactSection }
+    { label: 'Sobre Mí', action: handleAboutMeSection },
+    { label: 'Proyectos', action: handleProjectsSection },
+    { label: 'Habilidades', action: handleSkillsSection },
+    { label: 'Servicios', action: handleServicesSection },
+    { label: 'Contacto', action: handleContactSection }
   ];
 
   const handleMenuClick = () => {

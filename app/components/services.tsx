@@ -86,7 +86,7 @@ const ServicesSection = () => {
       features: ["Optimización", "Backups", "Alta Disponibilidad", "Seguridad"]
     },
     tools_tech: {
-      title: "Herramientas",
+      title: "Tools",
       description: "Automatización y optimización de procesos de desarrollo para máxima eficiencia",
       tagline: "Automatización y eficiencia",
       features: ["Monitoreo", "Cloud"]
@@ -180,7 +180,6 @@ const ServicesSection = () => {
           <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white">
             <div className="h-full flex flex-col">
               <h4 className="text-xl font-bold mb-6">Beneficios de nuestros servicios</h4>
-
               <div className="space-y-6 flex-grow">
                 {[
                   {
