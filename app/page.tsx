@@ -158,13 +158,13 @@ export default function Home() {
         </section>
 
 
-        <section
+        {/* <section
           id="contact"
           ref={sections.contact}
           className="snap-start snap-always min-h-screen w-full bg-gray-50"
         >
           <ContactSection />
-        </section>
+        </section> */}
       </main>
 
       <Footer />

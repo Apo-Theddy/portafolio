@@ -36,7 +36,7 @@ const Navigation: React.FC<NavProps> = ({
     { label: 'Proyectos', action: handleProjectsSection },
     { label: 'Habilidades', action: handleSkillsSection },
     { label: 'Servicios', action: handleServicesSection },
-    { label: 'Contacto', action: handleContactSection }
+    // { label: 'Contacto', action: handleContactSection }
   ];
 
   const handleMenuClick = () => {
