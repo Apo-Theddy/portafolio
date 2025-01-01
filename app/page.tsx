@@ -3,14 +3,14 @@ import { useEffect, useRef, useState } from "react";
 import { Figtree } from "next/font/google";
 import Logo from "../public/images/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
-import AbountMe from "./about-me";
-import Proyects from "./proyects";
 import Footer from "./components/footer";
 import ContactSection from "./components/contact";
 import Navigation from "./components/nav";
 import SkillsSection from "./components/skill_section";
 import { motion, AnimatePresence } from "framer-motion";
 import ServicesSection from "./components/services";
+import AboutMe from "./about-me/page";
+import Proyects from "./proyects/page";
 
 const figtree = Figtree({
   subsets: ["latin"],
@@ -129,7 +129,7 @@ export default function Home() {
         >
           <div className="container mx-auto px-4">
             <Navigation {...navigationProps} />
-            <AbountMe />
+            <AboutMe />
           </div>
         </section>
 

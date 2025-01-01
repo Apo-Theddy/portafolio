@@ -1,6 +1,6 @@
 import { Figtree } from "next/font/google";
-import ProjectCard from "./components/project_card";
-import projectsData from "./data/projects.json";
+import ProjectCard from "../components/project_card";
+import projectsData from "../data/projects.json";
 
 const figtree = Figtree({
   subsets: ["latin"],
