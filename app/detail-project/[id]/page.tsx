@@ -7,33 +7,22 @@ import { redirect, useParams } from 'next/navigation';
 import Logo from '../../../public/images/logo.png';
 import projects from '../../data/projects.json';
 
-
-
-
 const figtree = Figtree({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
-export async function generateStaticParams() {
-  return projects.map((project) => ({
-    id: project.id.toString(),
-  }));
-}
+const ProjectDetail = () => {
+  const params = useParams();
 
-export default function ProjectDetail({ params }: { params: { id: string } }) {
-  const projectId = parseInt(params.id, 10);
-
-  if (!projectId) {
-    redirect('/');
-    return null;
+  if (!params.id || !parseInt(params.id.toString())) {
+    redirect("/");
   }
 
-  const project = projects.find((project) => project.id === projectId);
+  const project = projects.find((project) => project.id === parseInt(params.id!.toString()));
 
   if (!project) {
-    redirect('/');
-    return null;
+    redirect("/");
   }
 
   return <>
@@ -158,3 +147,5 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
     </div >
   </>
 };
+
+export default ProjectDetail;
