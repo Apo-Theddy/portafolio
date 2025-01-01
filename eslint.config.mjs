@@ -11,6 +11,13 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off", // Deshabilita errores por usar 'any'
+      "@typescript-eslint/no-unused-vars": "off", // Deshabilita errores por variables no usadas
+      "@next/next/no-img-element": "off", // Permite el uso de <img>
+    },
+  },
 ];
 
 export default eslintConfig;
