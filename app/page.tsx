@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Figtree } from "next/font/google";
 import Logo from "../public/images/logo.png";
-import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
 import AbountMe from "./about-me";
 import Proyects from "./proyects";
