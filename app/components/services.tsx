@@ -150,7 +150,7 @@ const ServicesSection = () => {
               </p>
 
               {/* Features Grid */}
-              <div className="grid grid-cols-2 gap-4 mb-8">
+              <div className="grid grid-cols-1  md:grid-cols-2 gap-4 mb-8">
                 {serviceCategories[activeCategory].features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
                     <div className="w-2 h-2 rounded-full bg-blue-500" />
