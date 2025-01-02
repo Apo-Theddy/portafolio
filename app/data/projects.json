@@ -55,7 +55,7 @@
       "Panel de control para cocina",
       "Gestión de mesas y órdenes"
     ],
-    "isPrivate": false
+    "isPrivate": true
   },
   {
     "id": 4,
@@ -76,7 +76,7 @@
       "Animaciones interactivas",
       "Integración de formularios"
     ],
-    "isPrivate": false
+    "isPrivate": true
   },
   {
     "id": 5,
@@ -97,7 +97,7 @@
       "Formularios de contacto",
       "Galería de servicios"
     ],
-    "isPrivate": false
+    "isPrivate": true
   },
   {
     "id": 6,
