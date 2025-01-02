@@ -60,6 +60,10 @@ const ServicesSection = () => {
     ]
   };
 
+  function handleClickContact() {
+    window.open("https://wa.me/+51960710852?text=Hola%2C%20Buenas%20tardes%2C%20vi%20su%20portafolio%2C%20quisiera%20tener%20mas%20informacion");
+  }
+
   const serviceCategories: ServiceCategories = {
     frontend_core: {
       title: "Frontend",
@@ -207,7 +211,7 @@ const ServicesSection = () => {
                 ))}
               </div>
 
-              <button className="mt-8 w-full bg-white text-blue-600 py-3 px-6 rounded-lg font-semibold hover:bg-gray-50 transition-colors duration-300">
+              <button className="mt-8 w-full bg-white text-blue-600 py-3 px-6 rounded-lg font-semibold hover:bg-gray-50 transition-colors duration-30" onClick={handleClickContact}>
                 Contactar
               </button>
             </div>
